@@ -13,7 +13,8 @@ const Counter =()=>{
  
   //reset counter 
   const reset = () =>{
-    setValue(0)
+    setValue(0);
+    
   }
 
 	return(

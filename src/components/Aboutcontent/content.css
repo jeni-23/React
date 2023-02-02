@@ -7,7 +7,7 @@
 .content_container{
 	position: absolute;
 	top: 150px;
-	right: 120px;
+	right: 80px;
 }
 .content_container > h1{
 	font-size: 50px;
@@ -67,6 +67,6 @@ transition: 1s;
 	color: #f64c08;
 	font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    transition: 0.5s;
-    transform: scale(1.2,0.9);
+    transition: 1s;
+    padding: 7px 45px;
 }

@@ -7,6 +7,9 @@ display: flex;
 align-items: center;
 background-color: black;
 color: white;
+top: 0;
+position: sticky;
+z-index: 2000;
 }
 .header_left{
 	flex: 0.4;
@@ -15,7 +18,7 @@ color: white;
 	text-align: center;
 	font-family: 'Alata', sans-serif;
 	letter-spacing: 1px;
-	padding: 20px 0;
+	padding: 16px 0;
 }
 .header_left > h1 > span{
 	color: #f64c08;

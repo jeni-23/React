@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&family=Poppins:ital,wght@0,100;0,400;0,600;1,400&display=swap');
+.content{
+	color: white;
+	position: relative;
+
+}
+.content_container{
+	position: absolute;
+	top: 150px;
+	right: 120px;
+}
+.content_container > h1{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.content_container > p{
+	letter-spacing: 1px;
+	text-align: left;
+	padding:3px;
+	padding-top: 20px;
+	
+}
+.content_container > a > button{
+	text-align: left ;
+	border-radius: 2px;
+	margin-top: 10px;
+	
+}
+.content_downloadBtn{
+	color: white;
+	background-color: #f64c08;
+	padding: 7px 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	cursor: pointer;
+	margin-right: 20px;
+	border: none;
+
+
+
+}
+.content_downloadBtn:hover{
+cursor: pointer;
+color: #f64c08;
+background-color: white;
+font-weight: 800;
+font-family: 'Montserrat', sans-serif;
+padding: 7px 25px;
+transition: 1s;
+}
+
+.content_projectBtn{
+	color: white;
+	border: 1px solid white;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	padding: 6px 38px;
+	font-weight: 500;
+
+
+}
+.content_projectBtn:hover{
+	cursor: pointer;
+	background-color:white;
+	color: #f64c08;
+	font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    transform: scale(1.2,0.9);
+}

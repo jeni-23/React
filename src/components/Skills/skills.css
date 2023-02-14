@@ -15,6 +15,15 @@
 	border-radius: 3px;
 	width: 500px;
 	object-fit: contain;
+	cursor: pointer;
+}
+.container_img > img:hover{
+	
+	cursor: pointer;
+	transition: 1s;
+	opacity: 0.7;
+	border-radius: 40px;
+	
 }
 .skillcontainer_text{
 	color: white;
@@ -49,4 +58,5 @@
 .slider4 >div > .MuiLinearProgress-barColorPrimary{
   background-color: rgb(5, 180, 190 );
 }
+
 

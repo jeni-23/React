@@ -4,6 +4,7 @@ import Counter from './Counter/counter';
 import Header from './components/Header/header';
 import About from './components/About/about';
 import Skill from './components/Skills/skills';
+import Project from './components/Projects/projects';
 
 // import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ function App() {
         <Header/>
      <About/>
      <Skill/> 
+     <Project/>
     
     </>
  

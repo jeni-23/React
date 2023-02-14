@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&family=Poppins:ital,wght@0,100;0,400;0,600;1,400&display=swap');
+.projectcontainer{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: content;
+	align-items: center;
+	margin:200px 0;
+}
+.projectcontainer >h1{
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.projectcontainer_projects{
+	display: flex;
+	flex-wrap: wrap;
+}

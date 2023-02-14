@@ -1,0 +1,44 @@
+.projectitem{
+	margin:15px;
+	height: 200px;
+	width: 400px;
+	transition: transform 100ms ease-in;
+
+
+	
+}
+.projectitem:hover{
+	color: white;
+	background-color: #f64c08;
+	transform: scale(1.05);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    cursor: pointer;
+/*    display: block;*/
+/*	overflow: scroll;*/
+box-sizing: border-box;
+}
+.projectitem>img{
+	width: 340px;
+	height: 170px;
+
+}
+.prject_content{
+	padding: 10px;
+
+}
+.prject_content>h4{
+	padding-bottom: 5px;
+}
+.prject_content>h6{
+	font-size: 15px;
+}
+.prject_content>p{
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+ 
